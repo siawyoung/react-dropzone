@@ -59,9 +59,9 @@ var Dropzone = React.createClass({
   render: function() {
 
     var className = this.props.className || 'dropzone';
-    if (this.state.isDragActive) {
-      className += ' active';
-    };
+    // if (this.state.isDragActive) {
+    //   className += ' active';
+    // };
 
     var style = this.props.style || {
       width: this.props.size || 100,
